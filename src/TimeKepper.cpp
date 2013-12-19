@@ -1,9 +1,9 @@
-#include "TimeKepper.h"
+#include "TimeKeeper.h"
 
-TimeKepper::TimeKepper() {
+TimeKeeper::TimeKeeper() {
 
 }
 
-TimeKepper::~TimeKepper() {
+TimeKeeper::~TimeKeeper() {
 
 }

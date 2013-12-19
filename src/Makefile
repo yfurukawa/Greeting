@@ -3,7 +3,7 @@ RM = rm -f
 INCLUDE = -I/usr/incude -I/usr/local/include
 LIB_DIR = -L/usr/lib -L/usr/local/lib
 LIB =
-OPT = -O0 -g3 -Wall -fmessage-length=0
+OPT = -O0 -g3 -Wall -Wnon-virtual-dtor -Woverloaded-virtual -fmessage-length=0 -fprofile-arcs -ftest-coverage
 TARGET = a.out
 include productionSources.mk
 include productionObjects.mk

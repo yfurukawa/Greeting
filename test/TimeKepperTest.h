@@ -1,18 +1,18 @@
-#ifndef TIMEKEPPERTEST_H_
-#define TIMEKEPPERTEST_H_
+#ifndef TIMEKEEPERTEST_H_
+#define TIMEKEEPERTEST_H_
 
 #include <gtest/gtest.h>
-#include "TimeKepper.h"
+#include "TimeKeeper.h"
 
-class TimeKepperTest : public ::testing::Test {
+class TimeKeeperTest : public ::testing::Test {
 protected:
-	TimeKepper* sut;
+	TimeKeeper* sut;
 	void SetUp();
 	void TearDown();
 
 public:
-	TimeKepperTest();
-	virtual ~TimeKepperTest();
+	TimeKeeperTest();
+	virtual ~TimeKeeperTest();
 
 };
 

@@ -1,22 +1,22 @@
-#include "TimeKepperTest.h"
+#include "TimeKeeperTest.h"
 
-TimeKepperTest::TimeKepperTest() {
-
-}
-
-TimeKepperTest::~TimeKepperTest() {
+TimeKeeperTest::TimeKeeperTest() {
 
 }
 
-void TimeKepperTest::SetUp() {
-	sut = new TimeKepper();
+TimeKeeperTest::~TimeKeeperTest() {
+
 }
 
-void TimeKepperTest::TearDown() {
+void TimeKeeperTest::SetUp() {
+	sut = new TimeKeeper();
+}
+
+void TimeKeeperTest::TearDown() {
 	delete sut;
 }
 
-TEST_F (TimeKepperTest, testNameIsHere_ChangeThis) {
+TEST_F (TimeKeeperTest, testNameIsHere_ChangeThis) {
 /* Write a test code here. */
 
 }

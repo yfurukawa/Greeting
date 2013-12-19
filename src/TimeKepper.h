@@ -1,11 +1,21 @@
-#ifndef TIMEKEPPER_H_
-#define TIMEKEPPER_H_
+/**
+ * TimeKeeper.h<br>
+ *
+ */
 
-class TimeKepper {
+#ifndef TIMEKEEPER_H_
+#define TIMEKEEPER_H_
+
+class TimeKeeper {
 public:
-	TimeKepper();
-	virtual ~TimeKepper();
+//! Constractor
+	TimeKeeper();
+//! Destructor
+	virtual ~TimeKeeper();
 
+protected:
+
+private:
 };
 
 #endif

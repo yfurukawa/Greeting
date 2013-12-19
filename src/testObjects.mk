@@ -1,1 +1,1 @@
-TEST_OBJ = testMain.o GreetingTest.o TimeKepperTest.o 
+TEST_OBJ = testMain.o GreetingTest.o TimeKeeperTest.o GreetingSpy.o
