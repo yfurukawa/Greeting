@@ -2,11 +2,13 @@
 #define GREETINGTEST_H_
 
 #include <gtest/gtest.h>
-#include "Greeting.h"
+#include "mocks/GreetingSpy.h"
+#include "mocks/TimeKeeperMock.h"
 
 class GreetingTest : public ::testing::Test {
 protected:
-	Greeting* sut;
+	GreetingSpy* sut;
+	TimeKeeperMock* timeKeeper_;
 	void SetUp();
 	void TearDown();
 

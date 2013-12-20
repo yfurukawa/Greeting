@@ -6,12 +6,17 @@
 #ifndef TIMEKEEPER_H_
 #define TIMEKEEPER_H_
 
-class TimeKeeper {
+#include <string>
+
+#include "ITimeKeeper.h"
+
+class TimeKeeper : public ITimeKeeper {
 public:
-//! Constractor
+	//! Constractor
 	TimeKeeper();
-//! Destructor
+	//! Destructor
 	virtual ~TimeKeeper();
+	virtual const std::string getCurrentTime() const;
 
 protected:
 

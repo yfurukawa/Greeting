@@ -12,7 +12,12 @@ GreetingSpy::GreetingSpy(){
 
 }
 
+GreetingSpy::GreetingSpy( ITimeKeeper* timeKeeper ) : Greeting(timeKeeper){
+}
+
 GreetingSpy::~GreetingSpy(){
 	// TODO Auto-generated destructor stub
 }
+
+
 

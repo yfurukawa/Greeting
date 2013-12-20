@@ -8,10 +8,13 @@
 #ifndef ITIMEKEEPER_H_
 #define ITIMEKEEPER_H_
 
+#include <string>
+
 class ITimeKeeper {
 public:
 	ITimeKeeper() {};
 	virtual ~ITimeKeeper() {};
+	virtual const std::string getCurrentTime() const = 0;
 };
 
 #endif /* ITIMEKEEPER_H_ */

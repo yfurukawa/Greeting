@@ -14,6 +14,7 @@ class GreetingSpy : public Greeting {
 public:
 	GreetingSpy();
 	virtual ~GreetingSpy();
+	GreetingSpy(ITimeKeeper* timeKeeper);
 };
 
 #endif /* GREETINGSPY_H_ */
